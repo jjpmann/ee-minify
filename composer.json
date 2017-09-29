@@ -14,7 +14,8 @@
     ],
     "require": {
         "jjpmann/ee-addons": "^1.0",
-        "composer/installers": "^1.4"
+        "composer/installers": "^1.4",
+        "zaininnari/html-minifier": "^0.4.2"
     },
     "autoload": {
         "psr-4": {
