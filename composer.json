@@ -1,0 +1,27 @@
+{
+    "name": "jjpmann/ee-minify",
+    "type": "ee3-addon",
+    "description": "Minfy HTML for ExpressionEngine",
+    "keywords": ["eecms", "minify html"],
+    "homepage": "http://github.com/jjpmann/ee-minify",
+    "license": "MIT",
+    "authors" : [
+        {
+            "name": "Jerry Price",
+            "email": "jjpmann@gmail.com",
+            "homepage": "http://github.com/jjpmann"
+        }
+    ],
+    "require": {
+        "jjpmann/ee-addons": "^1.0",
+        "composer/installers": "^1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "jjpmann\\EE\\Minify\\": "src/"
+        }
+    },
+    "extra": {
+        "installer-name": "minify"
+    }
+}
